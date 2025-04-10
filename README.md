@@ -10,7 +10,7 @@ El trabajo fue desarrollado por **Frida Michelle Vargas Bautista** como proyecto
 
 El algoritmo de optimización por ballena jorobada (WOA) es una metaheurística bioinspirada que simula el comportamiento de caza de las ballenas jorobadas al rodear a sus presas. En este proyecto, se adapta para resolver problemas de clustering, donde cada “ballena” representa una posible solución (asignación de centros) y se evalúa con una función de aptitud basada en la distancia de cada punto a su centro más cercano.
 
-Se probaron diferentes funciones de aptitud y métricas de evaluación sobre conjuntos de datos reales, destacando su aplicación a datos del *Wisconsin Breast Cancer Dataset*.
+Se probaron diferentes funciones de aptitud sobre conjuntos de datos, destacando su aplicación a datos del *Wisconsin Breast Cancer Dataset*.
 
 > *Este proyecto nace de la curiosidad por ver cómo un algoritmo inspirado en ballenas puede aprender a agrupar datos médicos con sentido.*
 
@@ -37,33 +37,21 @@ Se probaron diferentes funciones de aptitud y métricas de evaluación sobre con
 
 A continuación se muestran algunos de los agrupamientos obtenidos con el algoritmo en distintos conjuntos de datos:
 
+### 🍇 Datos Generados Aleatoriamente
+
+![imagen](https://github.com/user-attachments/assets/26c87bf4-df18-4ee5-8198-6cd5da671985) ![imagen](https://github.com/user-attachments/assets/2ccc285d-e9b4-45d2-a2f5-12af7b9d9ea3)
+
+---
+
 ### 🌸 Iris Dataset
 
 ![imagen](https://github.com/user-attachments/assets/df3914c4-66d6-4d84-9e83-5705c7f0bd21) ![imagen](https://github.com/user-attachments/assets/6ae1f3bf-9159-49bc-89a2-561b18f1e81a)
 
 ---
 
-### 🍇 Wine Dataset
-
-<p align="center">
-  <img src="img/wine_resultado.png" width="500"/>
-</p>
-
----
-
-### 🌾 Seeds Dataset
-
-<p align="center">
-  <img src="img/seeds_resultado.png" width="500"/>
-</p>
-
----
-
 ### 🧬 Cáncer de mama (Wisconsin Diagnostic)
 
-<p align="center">
-  <img src="img/cancer_resultado.png" width="500"/>
-</p>
+![imagen](https://github.com/user-attachments/assets/339f9a0f-86ae-4f2f-a920-aea9284b5bbe) ![imagen](https://github.com/user-attachments/assets/71af9415-5c8c-4493-82e7-c74ff5dbc1ab)
 
 ---
 
@@ -72,10 +60,3 @@ A continuación se muestran algunos de los agrupamientos obtenidos con el algori
 - Mirjalili, S., & Lewis, A. (2016). The whale optimization algorithm. *Advances in Engineering Software*, 95, 51–67.
 - UCI Machine Learning Repository
 
----
-
-## 💬 Nota personal
-
-Este proyecto fue una oportunidad para explorar la belleza de los algoritmos inspirados en la naturaleza y su potencial para resolver problemas del mundo real. Aunque no comparto el código, cada línea fue pensada, probada y entendida a fondo. Lo que comparto aquí es la estructura, el proceso y el aprendizaje.
-
-> *A veces una ballena también sabe agrupar cosas que parecen imposibles.*
