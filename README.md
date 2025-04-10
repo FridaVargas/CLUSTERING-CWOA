@@ -26,9 +26,10 @@ Se probaron diferentes funciones de aptitud sobre conjuntos de datos, destacando
 
 ## 📊 Datasets utilizados
 
-- Iris Dataset (clásico)
-- Seeds Dataset
-- Wine Dataset
+- Datos Aleatorios
+- Clústers artificiales
+- Make Moon Dataset
+- Iris Dataset
 - **Breast Cancer Wisconsin (Diagnostic) Dataset**
 
 ---
